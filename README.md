@@ -1,19 +1,20 @@
 # Сайт Анастасії Супрун
 
-## Форма заявок
-Форма вже підключена до Formspree:
-`https://formspree.io/f/xbgrzlna`
+## Контакти
+- Telegram: https://t.me/Supr_anastasia
+- Instagram: https://www.instagram.com/supr_anastasia
 
-Тепер форма відправляється через POST на Formspree, а не через поштову програму на комп'ютері.
+## Що вже підключено
+- кнопка «Зв’язок» у верхньому меню;
+- блок контактів унизу сторінки;
+- Telegram;
+- Instagram;
+- форма заявки через Formspree;
+- фотографії Анастасії.
 
-### Що зробити після завантаження
-1. Завантаж всі файли на GitHub.
-2. Відкрий сайт через GitHub Pages.
-3. Зроби тестову заявку.
-4. Перевір Inbox і Dashboard у Formspree.
-5. У Formspree має бути підтверджена email-адреса та налаштований Target Email.
+## Як оновлювати
+У GitHub:
+- `index.html` → олівець **Edit this file** → змінити текст → **Commit changes**.
+- `assets/` → замінити фотографії, зберігаючи назви файлів.
 
-## Оновлення
-- Фото: `assets/`
-- Тексти та дизайн: `index.html`
-- Після `Commit changes` GitHub Pages оновлює сайт.
+Після Commit changes GitHub Pages оновить сайт.

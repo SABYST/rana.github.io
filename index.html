@@ -54,6 +54,22 @@ footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);font-s
 
 <section id="gallery"><div class="wrap"><div class="section-head"><div class="eyebrow">Галерея</div><h2>Кадри з подій.</h2><p>Заміни файли в папці <b>assets</b> на справжні фото Анастасії — назви вже підготовлені.</p></div><div class="gallery"><div class="g1 wide">Сцена</div><div class="g2">Свято</div><div class="g3">Вокал</div><div class="g4">Караоке</div><div class="g5 wide">Мафія / корпоратив</div></div></div></section>
 
+
+<section id="contacts" class="vocal">
+  <div class="wrap" style="text-align:center">
+    <div class="eyebrow">Контакти</div>
+    <h2>Зв’яжіться з Анастасією</h2>
+    <p style="color:var(--muted);font-size:17px;max-width:650px;margin:0 auto 28px">
+      Оберіть зручний спосіб зв’язку або залиште заявку нижче.
+    </p>
+    <div class="buttons" style="justify-content:center">
+      <a class="btn primary" href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noopener">✈️ Telegram</a>
+      <a class="btn" href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener">📸 Instagram</a>
+      <a class="btn" href="#contact">📝 Залишити заявку</a>
+    </div>
+  </div>
+</section>
+
 <section id="contact"><div class="wrap contact"><div><div class="eyebrow">Бронювання</div><h2>Розкажіть про ваше свято.</h2><p style="color:var(--muted);font-size:17px">Заповніть форму — і Анастасія зв'яжеться з вами, щоб обговорити формат, дату та деталі.</p><p style="color:var(--muted)">Форма працює без стороннього сервера: після натискання вона відкриє поштовий клієнт із готовим листом. Адресу для отримання заявок можна змінити в коді.</p></div>
 <form class="form" id="bookingForm" action="https://formspree.io/f/xbgrzlna" method="POST" accept-charset="UTF-8">
 <div class="row"><div class="field"><label>Ваше ім'я *</label><input id="name" name="name" required placeholder="Олександр"></div><div class="field"><label>Телефон *</label><input id="phone" name="phone" required placeholder="+380 ..."></div></div>
@@ -63,7 +79,11 @@ footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);font-s
 <input type="hidden" name="_subject" value="Нова заявка з сайту Анастасії Супрун"><button class="btn primary" type="submit" style="width:100%;cursor:pointer">Надіслати заявку</button>
 </form></div></section>
 </main>
-<footer><div class="wrap footer"><div>© 2026 Анастасія Супрун</div><div>Ведуча • Вокалістка • Викладач вокалу</div></div></footer>
+<footer><div class="wrap footer"><div>© 2026 Анастасія Супрун</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap">
+  <a href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noopener">✈️ Telegram</a>
+  <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener">📸 Instagram</a>
+</div></div></footer>
 <script>
 document.getElementById('bookingForm').addEventListener('submit',function(){
   const button=this.querySelector('button[type="submit"]');
