@@ -1,12 +1,8 @@
-
-<html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мій сайт</title>
-</head>
-<body>
-  <h1>Привіт!</h1>
-  <p>Це мій перший сайт на GitHub Pages.</p>
-</body>
-</html>
+# Generate single-page site HTML for Anastasia Suprun
+html = '''<!DOCTYPE html>
+<html><head><title>Anastasia Suprun</title></head>
+<body><h1>Anastasia Suprun</h1>
+<p>Professional portfolio and contact page.</p>
+<section><h2>About</h2><p>Experienced specialist in her field.</p></section>
+</body></html>'''
+print(html)
