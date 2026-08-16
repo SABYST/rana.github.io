@@ -1,5 +1,4 @@
 # rana.github.io
-index.html
 <!DOCTYPE html>
 <html lang="uk">
 <head>
