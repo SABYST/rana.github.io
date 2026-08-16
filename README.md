@@ -1,19 +1,19 @@
 # Сайт Анастасії Супрун
 
-## Як оновлювати сайт на GitHub
+## Форма заявок
+Форма вже підключена до Formspree:
+`https://formspree.io/f/xbgrzlna`
 
-### Змінити фото
-У репозиторії відкрий папку `assets` і заміни потрібний файл, зберігаючи його назву:
-- `anastasia.jpg` — головне фото
-- `anastasia-about.jpg` — фото «Про мене»
-- `gallery1.jpg` — `gallery5.jpg` — галерея
+Тепер форма відправляється через POST на Formspree, а не через поштову програму на комп'ютері.
 
-### Змінити текст
-Відкрий `index.html` → натисни значок олівця **Edit this file** → зміни текст → **Commit changes**.
+### Що зробити після завантаження
+1. Завантаж всі файли на GitHub.
+2. Відкрий сайт через GitHub Pages.
+3. Зроби тестову заявку.
+4. Перевір Inbox і Dashboard у Formspree.
+5. У Formspree має бути підтверджена email-адреса та налаштований Target Email.
 
-### Змінити адресу для заявок
-У `index.html` знайди:
-`YOUR_EMAIL@example.com`
-і заміни на реальну електронну адресу.
-
-Після `Commit changes` GitHub Pages сам оновить сайт.
+## Оновлення
+- Фото: `assets/`
+- Тексти та дизайн: `index.html`
+- Після `Commit changes` GitHub Pages оновлює сайт.

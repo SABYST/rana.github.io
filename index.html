@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Анастасія Супрун — ведуча свят, вокалістка та викладач вокалу. Дитячі свята, корпоративи, караоке, та вокальні виступи.">
+<meta name="description" content="Анастасія Супрун — ведуча свят, вокалістка та викладач вокалу. Дитячі свята, корпоративи, караоке, Мафія, весілля та вокальні виступи.">
 <title>Анастасія Супрун — ведуча • вокалістка • викладач вокалу</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +35,7 @@ footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);font-s
 
 <main>
 <section class="wrap hero">
-<div><div class="eyebrow">Ведуча • вокалістка • викладач вокалу</div><h1>Свято, яке<br><em>хочеться згадувати.</em></h1><p>Анастасія Супрун — сучасна ведуча для дитячих і дорослих свят, корпоративів, караоке, та особливих подій. А ще — вокалістка й викладач вокалу.</p><div class="buttons"><a class="btn primary" href="#contact">Замовити ведучу</a><a class="btn" href="#services">Дивитися послуги</a></div></div>
+<div><div class="eyebrow">Ведуча • вокалістка • викладач вокалу</div><h1>Свято, яке<br><em>хочеться згадувати.</em></h1><p>Анастасія Супрун — сучасна ведуча для дитячих і дорослих свят, корпоративів, караоке, «Мафії» та особливих подій. А ще — вокалістка й викладач вокалу.</p><div class="buttons"><a class="btn primary" href="#contact">Замовити ведучу</a><a class="btn" href="#services">Дивитися послуги</a></div></div>
 <div class="hero-photo"></div>
 </section>
 
@@ -55,25 +55,20 @@ footer{border-top:1px solid var(--line);padding:35px 0;color:var(--muted);font-s
 <section id="gallery"><div class="wrap"><div class="section-head"><div class="eyebrow">Галерея</div><h2>Кадри з подій.</h2><p>Заміни файли в папці <b>assets</b> на справжні фото Анастасії — назви вже підготовлені.</p></div><div class="gallery"><div class="g1 wide">Сцена</div><div class="g2">Свято</div><div class="g3">Вокал</div><div class="g4">Караоке</div><div class="g5 wide">Мафія / корпоратив</div></div></div></section>
 
 <section id="contact"><div class="wrap contact"><div><div class="eyebrow">Бронювання</div><h2>Розкажіть про ваше свято.</h2><p style="color:var(--muted);font-size:17px">Заповніть форму — і Анастасія зв'яжеться з вами, щоб обговорити формат, дату та деталі.</p><p style="color:var(--muted)">Форма працює без стороннього сервера: після натискання вона відкриє поштовий клієнт із готовим листом. Адресу для отримання заявок можна змінити в коді.</p></div>
-<form class="form" id="bookingForm">
-<div class="row"><div class="field"><label>Ваше ім'я *</label><input id="name" required placeholder="Олександр"></div><div class="field"><label>Телефон *</label><input id="phone" required placeholder="+380 ..."></div></div>
-<div class="row"><div class="field"><label>Тип заходу *</label><select id="event" required><option value="">Оберіть</option><option>Корпоратив</option><option>Дитяче свято</option><option>Весілля</option><option>День народження</option><option>Мафія</option><option>Караоке</option><option>Вокальний виступ</option><option>Урок вокалу</option><option>Інше</option></select></div><div class="field"><label>Дата</label><input id="date" type="date"></div></div>
-<div class="row"><div class="field"><label>Кількість гостей</label><input id="guests" type="number" min="1" placeholder="30"></div><div class="field"><label>Місто</label><input id="city" placeholder="Ваше місто"></div></div>
-<div class="field"><label>Деталі</label><textarea id="message" placeholder="Розкажіть коротко про захід..."></textarea></div>
-<button class="btn primary" type="submit" style="width:100%;cursor:pointer">Надіслати заявку</button>
+<form class="form" id="bookingForm" action="https://formspree.io/f/xbgrzlna" method="POST" accept-charset="UTF-8">
+<div class="row"><div class="field"><label>Ваше ім'я *</label><input id="name" name="name" required placeholder="Олександр"></div><div class="field"><label>Телефон *</label><input id="phone" name="phone" required placeholder="+380 ..."></div></div>
+<div class="row"><div class="field"><label>Тип заходу *</label><select id="event" name="event" required><option value="">Оберіть</option><option>Корпоратив</option><option>Дитяче свято</option><option>Весілля</option><option>День народження</option><option>Мафія</option><option>Караоке</option><option>Вокальний виступ</option><option>Урок вокалу</option><option>Інше</option></select></div><div class="field"><label>Дата</label><input id="date" name="date" type="date"></div></div>
+<div class="row"><div class="field"><label>Кількість гостей</label><input id="guests" name="guests" type="number" min="1" placeholder="30"></div><div class="field"><label>Місто</label><input id="city" name="city" placeholder="Ваше місто"></div></div>
+<div class="field"><label>Деталі</label><textarea id="message" name="message" placeholder="Розкажіть коротко про захід..."></textarea></div>
+<input type="hidden" name="_subject" value="Нова заявка з сайту Анастасії Супрун"><button class="btn primary" type="submit" style="width:100%;cursor:pointer">Надіслати заявку</button>
 </form></div></section>
 </main>
 <footer><div class="wrap footer"><div>© 2026 Анастасія Супрун</div><div>Ведуча • Вокалістка • Викладач вокалу</div></div></footer>
 <script>
-document.getElementById('bookingForm').addEventListener('submit', function(e){
- e.preventDefault();
- const email='lilsabyst@gmail.com'; // ЗАМІНИ на пошту Анастасії
- const subject=encodeURIComponent('Заявка на захід — Анастасія Супрун');
- const body=encodeURIComponent(
- `Ім'я: ${name.value}\nТелефон: ${phone.value}\nТип заходу: ${event.value}\nДата: ${date.value || 'не вказано'}\nГості: ${guests.value || 'не вказано'}\nМісто: ${city.value || 'не вказано'}\nДеталі: ${message.value || 'не вказано'}`
- );
- window.location.href=`mailto:${email}?subject=${subject}&body=${body}`;
+document.getElementById('bookingForm').addEventListener('submit',function(){
+  const button=this.querySelector('button[type="submit"]');
+  button.disabled=true;
+  button.textContent='Надсилаємо заявку…';
 });
-</script>
-</body>
+</script></body>
 </html>
