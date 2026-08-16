@@ -1,19 +1,19 @@
-# Anastasia Suprun — сайт
+# Сайт Анастасії Супрун
 
-## Структура
-- `index.html` — головна сторінка
-- `assets/` — сюди додаються фотографії
+## Як оновлювати сайт на GitHub
 
-## Фото
-Додай власні фото Анастасії в папку `assets` з такими назвами:
-- anastasia.jpg
-- anastasia-about.jpg
-- gallery1.jpg
-- gallery2.jpg
-- gallery3.jpg
-- gallery4.jpg
-- gallery5.jpg
+### Змінити фото
+У репозиторії відкрий папку `assets` і заміни потрібний файл, зберігаючи його назву:
+- `anastasia.jpg` — головне фото
+- `anastasia-about.jpg` — фото «Про мене»
+- `gallery1.jpg` — `gallery5.jpg` — галерея
 
-## GitHub Pages
-Після завантаження файлів у GitHub:
-Settings → Pages → Deploy from a branch → main → / (root) → Save.
+### Змінити текст
+Відкрий `index.html` → натисни значок олівця **Edit this file** → зміни текст → **Commit changes**.
+
+### Змінити адресу для заявок
+У `index.html` знайди:
+`YOUR_EMAIL@example.com`
+і заміни на реальну електронну адресу.
+
+Після `Commit changes` GitHub Pages сам оновить сайт.
