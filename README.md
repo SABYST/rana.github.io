@@ -1,12 +1,12 @@
 # Сайт Анастасії Супрун — фінальна версія
 
 Зміни:
-- прибрано «додай фото Анастасії»;
-- повністю прибрано «Мафія»;
-- Telegram: https://t.me/Supr_anastasia;
-- Instagram: https://www.instagram.com/supr_anastasia;
-- кнопка «Зв’язок» веде до контактів;
-- «Свято» та «Події» залишені;
-- форма Formspree збережена.
+- блок Telegram та Instagram перенесено **після форми заявки**, у самий низ сторінки;
+- кнопка «Зв’язок» зверху веде до цього блоку;
+- усі написи поверх фотографій у галереї прибрані;
+- Telegram: https://t.me/Supr_anastasia
+- Instagram: https://www.instagram.com/supr_anastasia
+- Formspree збережено;
+- «Мафія» та текст «додай фото Анастасії» залишаються видаленими.
 
-Для оновлення GitHub: заміни `index.html` та `assets`, потім натисни `Commit changes`.
+Оновлення GitHub: заміни `index.html` та `assets`, потім натисни `Commit changes`.
