@@ -1,20 +1,12 @@
-# Сайт Анастасії Супрун
+# Сайт Анастасії Супрун — фінальна версія
 
-## Контакти
-- Telegram: https://t.me/Supr_anastasia
-- Instagram: https://www.instagram.com/supr_anastasia
+Зміни:
+- прибрано «додай фото Анастасії»;
+- повністю прибрано «Мафія»;
+- Telegram: https://t.me/Supr_anastasia;
+- Instagram: https://www.instagram.com/supr_anastasia;
+- кнопка «Зв’язок» веде до контактів;
+- «Свято» та «Події» залишені;
+- форма Formspree збережена.
 
-## Що вже підключено
-- кнопка «Зв’язок» у верхньому меню;
-- блок контактів унизу сторінки;
-- Telegram;
-- Instagram;
-- форма заявки через Formspree;
-- фотографії Анастасії.
-
-## Як оновлювати
-У GitHub:
-- `index.html` → олівець **Edit this file** → змінити текст → **Commit changes**.
-- `assets/` → замінити фотографії, зберігаючи назви файлів.
-
-Після Commit changes GitHub Pages оновить сайт.
+Для оновлення GitHub: заміни `index.html` та `assets`, потім натисни `Commit changes`.
